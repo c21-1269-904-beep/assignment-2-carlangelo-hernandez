@@ -1,6 +1,6 @@
 # assignment-2-carlangelo-hernandez
 
-**. Why is message passing required in distributed systems?**
+**1. Why is message passing required in distributed systems?**
 Within distributed systems, individual processes operate in isolation without access to a common memory space, which prevents them from directly reading or modifying each other's data. To overcome this barrier, these processes rely on message passing as their primary communication mechanism, exchanging specific packets of information to stay synchronized. This interaction is vital; without a structured way to send and receive data, independent nodes would be unable to coordinate their efforts or combine their results into a unified task.
 
 **2. What happens if one process fails?**
